@@ -110,6 +110,7 @@ python main.py
 *Press ESC to exit whenever you want!*
 
 ### Project Structure
+```text
 vision_tracker/
 ├── main.py                 # Main application loop
 ├── config.py               # App configuration and toggles
@@ -122,7 +123,7 @@ vision_tracker/
     ├── gestures.py         # Finger counting & gesture logic
     ├── features.py         # Landmark utilities
     └── utils.py            # Shared helpers
-    
+```
 **This separation is intentional: you can upgrade one part (like gestures) without rewriting the whole app.**
 
 ### Configuration
